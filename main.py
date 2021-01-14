@@ -1,11 +1,11 @@
 import random
 
-games = input("How many games you want to play?  ")
-while not games.isdigit():
+Numbgames = input("How many games you want to play?  ")
+while not Numbgames.isdigit():
     print('Chose number! '),
-    games = input()
-else: print("You want to play " +games +" games.")
-for i in range(int(games)):
+    Numbgames = input()
+else: print("You want to play " +Numbgames +" games.")
+for i in range(int(Numbgames)):
 
     hand_signals = ["Rock", "Papper", "Scissors"]
     opponent = random.choice(hand_signals)
